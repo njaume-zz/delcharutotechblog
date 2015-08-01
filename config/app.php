@@ -136,6 +136,10 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+<<<<<<< HEAD
+=======
+        Collective\Html\HtmlServiceProvider::class,
+>>>>>>> d24cd28afdd229ae8f66a8a41e0f15aa4fa732f1
 
         /*
          * Application Service Providers...
@@ -191,6 +195,11 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
+<<<<<<< HEAD
+=======
+        'Form' => 'Collective\Html\FormFacade',
+        'Html' => 'Collective\Html\HtmlFacade',
+>>>>>>> d24cd28afdd229ae8f66a8a41e0f15aa4fa732f1
 
     ],
 

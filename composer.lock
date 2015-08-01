@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "hash": "5c6026b96e6fa11a641b51a6ba976f5e",
+=======
+    "hash": "9bd5c1c5dfb5bd02facdb1dd88fcf922",
+>>>>>>> d24cd28afdd229ae8f66a8a41e0f15aa4fa732f1
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -62,6 +66,7 @@
         },
         {
             "name": "danielstjules/stringy",
+<<<<<<< HEAD
             "version": "1.10.0",
             "source": {
                 "type": "git",
@@ -72,6 +77,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/danielstjules/Stringy/zipball/4749c205db47ee5b32e8d1adf6d9aff8db6caf3b",
                 "reference": "4749c205db47ee5b32e8d1adf6d9aff8db6caf3b",
+=======
+            "version": "1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/danielstjules/Stringy.git",
+                "reference": "3cf18e9e424a6dedc38b7eb7ef580edb0929461b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/danielstjules/Stringy/zipball/3cf18e9e424a6dedc38b7eb7ef580edb0929461b",
+                "reference": "3cf18e9e424a6dedc38b7eb7ef580edb0929461b",
+>>>>>>> d24cd28afdd229ae8f66a8a41e0f15aa4fa732f1
                 "shasum": ""
             },
             "require": {
@@ -114,7 +131,11 @@
                 "utility",
                 "utils"
             ],
+<<<<<<< HEAD
             "time": "2015-07-23 00:54:12"
+=======
+            "time": "2015-02-10 06:19:18"
+>>>>>>> d24cd28afdd229ae8f66a8a41e0f15aa4fa732f1
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -490,6 +511,59 @@
             "time": "2015-07-21 18:33:13"
         },
         {
+<<<<<<< HEAD
+=======
+            "name": "laravelcollective/html",
+            "version": "v5.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LaravelCollective/html.git",
+                "reference": "c93974c835aebd1fc49d4aa897b30dd507b08a62"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/c93974c835aebd1fc49d4aa897b30dd507b08a62",
+                "reference": "c93974c835aebd1fc49d4aa897b30dd507b08a62",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "5.1.*",
+                "illuminate/routing": "5.1.*",
+                "illuminate/session": "5.1.*",
+                "illuminate/support": "5.1.*",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Collective\\Html\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                },
+                {
+                    "name": "Adam Engebretson",
+                    "email": "adam@laravelcollective.com"
+                }
+            ],
+            "time": "2015-07-11 09:34:06"
+        },
+        {
+>>>>>>> d24cd28afdd229ae8f66a8a41e0f15aa4fa732f1
             "name": "league/flysystem",
             "version": "1.0.10",
             "source": {

@@ -35,8 +35,13 @@ return [
     'digits'               => 'The :attribute must be :digits digits.',
     'digits_between'       => 'The :attribute must be between :min and :max digits.',
     'email'                => 'The :attribute must be a valid email address.',
+<<<<<<< HEAD
     'exists'               => 'The selected :attribute is invalid.',
     'filled'               => 'The :attribute field is required.',
+=======
+    'filled'               => 'The :attribute field is required.',
+    'exists'               => 'The selected :attribute is invalid.',
+>>>>>>> d24cd28afdd229ae8f66a8a41e0f15aa4fa732f1
     'image'                => 'The :attribute must be an image.',
     'in'                   => 'The selected :attribute is invalid.',
     'integer'              => 'The :attribute must be an integer.',

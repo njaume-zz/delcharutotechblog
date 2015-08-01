@@ -15,6 +15,7 @@ return [
     */
 
     'mailgun' => [
+<<<<<<< HEAD
         'domain' => env('MAILGUN_DOMAIN'),
         'secret' => env('MAILGUN_SECRET'),
     ],
@@ -26,13 +27,31 @@ return [
     'ses' => [
         'key'    => env('SES_KEY'),
         'secret' => env('SES_SECRET'),
+=======
+        'domain' => '',
+        'secret' => '',
+    ],
+
+    'mandrill' => [
+        'secret' => '',
+    ],
+
+    'ses' => [
+        'key'    => '',
+        'secret' => '',
+>>>>>>> d24cd28afdd229ae8f66a8a41e0f15aa4fa732f1
         'region' => 'us-east-1',
     ],
 
     'stripe' => [
         'model'  => App\User::class,
+<<<<<<< HEAD
         'key'    => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
+=======
+        'key'    => '',
+        'secret' => '',
+>>>>>>> d24cd28afdd229ae8f66a8a41e0f15aa4fa732f1
     ],
 
 ];

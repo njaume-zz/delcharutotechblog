@@ -9,6 +9,7 @@ use App\Http\Controllers\Controller;
 
 class HomeController extends Controller
 {
+<<<<<<< HEAD
     /**
      * Display a listing of the resource.
      *
@@ -83,5 +84,10 @@ class HomeController extends Controller
     public function destroy($id)
     {
         //
+=======
+    public function index()
+    {
+        return \View::make('home');
+>>>>>>> d24cd28afdd229ae8f66a8a41e0f15aa4fa732f1
     }
 }

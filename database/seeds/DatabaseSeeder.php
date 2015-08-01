@@ -14,6 +14,7 @@ class DatabaseSeeder extends Seeder
     {
         Model::unguard();
 
+<<<<<<< HEAD
         $this->call(UserTableSeeder::class);
         
         /*DB::table('users')->insert([
@@ -21,6 +22,9 @@ class DatabaseSeeder extends Seeder
             'email' => str_random(10).'@gmail22.com',
             'password' => bcrypt('secret'),
         ]);*/ 
+=======
+        // $this->call(UserTableSeeder::class);
+>>>>>>> d24cd28afdd229ae8f66a8a41e0f15aa4fa732f1
 
         Model::reguard();
     }
